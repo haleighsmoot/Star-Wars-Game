@@ -90,5 +90,12 @@
 
 //==Script==/
 
+$(".col-4").on("click", function() {	// when start button is clicked
+	$(this).hide();			// start is hidden
+	$("#stopBtn").show();		// stop is shown
+	setInterval(add, 10);		// the censec will be increased every 10 millisecond.
+	$("#censec").text(censec);
+})
+
 </script>
 

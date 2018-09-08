@@ -2,13 +2,19 @@
 @font-face {font-family:"STARWARS";src:url("STARWARS.eot?") format("eot"),url("STARWARS.woff") format("woff"),url("STARWARS.ttf") format("truetype"),url("STARWARS.svg#STARWARS") format("svg");font-weight:normal;font-style:normal;}
 
 
-/*centering of the Title*/
+/*centering of the Title and Game Score*/
 
 .col-12 {
     text-align: center !important;
     align-content: center !important;
     font-family: "STARWARS";
     color: #35ba2a;
+}
+
+p {
+    text-align: center !important;
+    align-content: center !important;
+    justify-content: center !important;
 }
 
 /*background*/
